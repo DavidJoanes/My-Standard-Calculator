@@ -182,7 +182,7 @@ root.configure(background = "#fff")
 root.geometry("450x390")
 root.resizable(width=False, height=False)
 
-root.iconbitmap('C:\\Users\\User\Documents\Python\calculator.ico')
+root.iconbitmap('calculator.ico')
 
 #Adding Menu bar
 calculator = Frame(root, bg="white")
