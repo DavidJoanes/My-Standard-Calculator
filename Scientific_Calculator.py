@@ -44,7 +44,6 @@ class Calculator():
             display.insert(END, operator)
 
     def do_sum(self):
-        global j
         try:
             if self.operation == "add":
                 self.total += self.current
